@@ -1,0 +1,177 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "209374de79225bfe6a01d5f496ee9ee1",
+    "packages": [
+        {
+            "name": "orhanerday/open-ai",
+            "version": "4.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orhanerday/open-ai.git",
+                "reference": "896665e293689d68de4b1e9813a2e0b00a06f5ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orhanerday/open-ai/zipball/896665e293689d68de4b1e9813a2e0b00a06f5ef",
+                "reference": "896665e293689d68de4b1e9813a2e0b00a06f5ef",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "pestphp/pest": "^1.20",
+                "spatie/ray": "^1.28"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Orhanerday\\OpenAi\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Orhan Erday",
+                    "email": "orhanerday@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "OpenAI GPT-3 Api Client in PHP",
+            "homepage": "https://github.com/orhanerday/open-ai",
+            "keywords": [
+                "open-ai",
+                "orhanerday"
+            ],
+            "support": {
+                "issues": "https://github.com/orhanerday/open-ai/issues",
+                "source": "https://github.com/orhanerday/open-ai/tree/4.8"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/orhanerday",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-06-11T09:25:47+00:00"
+        },
+        {
+            "name": "perchten/rmrdir",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:perchten/php-rmrdir.git",
+                "reference": "1d0b86871cad90dc9ab67ba30b3b53533714c5f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/perchten/php-rmrdir/zipball/1d0b86871cad90dc9ab67ba30b3b53533714c5f0",
+                "reference": "1d0b86871cad90dc9ab67ba30b3b53533714c5f0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/rmrdir.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alastair Brayne",
+                    "email": "al@perchten.co.uk",
+                    "homepage": "http://perchten.co.uk"
+                }
+            ],
+            "description": "Recusrive rmdir for PHP",
+            "homepage": "https://github.com/perchten/php-rmrdir",
+            "keywords": [
+                "dir",
+                "recursive",
+                "rm",
+                "rm -r",
+                "rmdir"
+            ],
+            "time": "2019-10-24T11:00:22+00:00"
+        },
+        {
+            "name": "yandricr/ytdownloader-fts",
+            "version": "1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yandricr/ytdownloader-fts.git",
+                "reference": "7a34cfa73371885fccee2d3862c7c7ce9eb705e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yandricr/ytdownloader-fts/zipball/7a34cfa73371885fccee2d3862c7c7ce9eb705e1",
+                "reference": "7a34cfa73371885fccee2d3862c7c7ce9eb705e1",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ytfts\\Downloader\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "yandricr",
+                    "email": "yandribret@gmail.com"
+                }
+            ],
+            "description": "Convert youtube links to download formats and get video data",
+            "keywords": [
+                "audio",
+                "download",
+                "downloader",
+                "formats",
+                "video",
+                "youtube",
+                "youtube download",
+                "youtube downloader",
+                "youtube formats",
+                "yt",
+                "yt download",
+                "yt downloader",
+                "yt formats",
+                "ytdownload",
+                "ytdownloader"
+            ],
+            "support": {
+                "issues": "https://github.com/yandricr/ytdownloader-fts/issues",
+                "source": "https://github.com/yandricr/ytdownloader-fts/tree/1.4"
+            },
+            "time": "2023-07-21T22:28:36+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8",
+        "ext-readline": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

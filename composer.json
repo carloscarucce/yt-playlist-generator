@@ -1,0 +1,9 @@
+{
+    "require": {
+        "php": ">=8",
+        "yandricr/ytdownloader-fts": "1.4",
+        "orhanerday/open-ai": "^4.8",
+        "perchten/rmrdir": "^1.0",
+        "ext-readline": "*"
+    }
+}
